@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.clear{
+    overflow: hidden;
+}
+
+.clearfix:after{
+    content:"";
+    clear:both;
+    display: block;
+}
+
+#particles-js {
+    position: relative;
+    background-color: #000;
+    background-image: url("img/man.jpg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    background-attachment: fixed;
+  
+}
+
+header {
+    background-color: black !important;
+    z-index: 100;
+}
+
+nav{
+    margin-top: 10px;
+}
+
+nav li {
+    max-height: 38px;
+    font-size: 15px;
+    margin-right: 40px;
+    margin-left: 10px;
+    transition: all 0.09s;
+}
+
+nav li:hover {
+    border-bottom: 2px solid #1E88E9;
+}
+
+#intro {
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+
+main{
+    height: auto;
+}
+
+main h1 {
+    font-family: monospace;
+    font-size: 56px;
+}
+
+
+#btnShow {
+    border: 1px solid white;
+    padding: 9px;
+    transition: all 0.5s;
+}
+
+#btnShow:hover {
+    background-color: #1E88E9;
+    border: 1px solid #1E88E9;
+}
+
+#btnShow:hover a {
+    color: white;
+}
+
+
+#about {
+    text-align: center;
+    position: relative;
+    margin-top: 390px;
+}
+
+.progress {
+    width: 310px;
+    height: 7px;
+}
+
+#work {
+    margin-top: 270px;
+    text-align: center;
+
+
+}
+
+
+.box {
+    width: 290px;
+    height: 180px;
+    border: 1px solid rgba(100, 100, 100, 0.5);
+    background-color: rgba(100, 100, 100, 0.5);
+    color: #fff;
+    border-radius: 4px;
+    transition: all 0.8s;
+
+}
+
+.box i {
+    color: #1E88E9;
+}
+
+.box:hover {
+    cursor: pointer;
+    color: white !important;
+    background-image: radial-gradient(circle, #2358a8, #1f5fb9, #1a66cb, #126edc, #0475ee);
+}
+
+.box:hover i {
+    color: white;
+}
+
+#portfolyo {
+    margin-top: 270px;
+}
+
+#portfolyo .portfolyo {
+    text-align: center;
+}
+
+
+#deneyimlerim {
+    margin-top: 250px;
+}
+
+.blueBorder {
+    width: 100px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid #1E88E9;
+}
+
+#deneyimlerim hr {
+    width: 400px;
+}
+
+#hourWork {
+    margin-top: 120px;
+    width: 100%;
+    min-height: 300px;
+    color: white;
+    background-image: radial-gradient(circle, #2358a8, #1f5fb9, #1a66cb, #126edc, #0475ee);
+}
+
+#hourWork i {
+    font-size: 35px;
+    padding-left: 15px;
+}
+
+#hourWork p {
+    display: inline;
+    margin-top: 5px;
+    font-size: 45px;
+}
+
+#hourWork small {
+    display: block;
+    position: relative;
+    top: 10px;
+
+}
+
+#hourWork .row {
+    position: relative;
+    top: 90px;
+    left: 100px;
+    bottom: 50px;
+}
+
+
+#contact {
+    position: relative;
+    top: 240px;
+    text-align: center;
+}
+
+
+
+#contact input,
+#contact textarea {
+    width: 400px;
+    background-color: transparent;
+
+}
+
+#contact input:focus {
+    outline: none !important;
+    border: 1px solid #1E87E8;
+}
+
+#contact input {
+    height: 45px;
+    color: white !important;
+}
+
+#contact textarea {
+    height: 180px;
+    resize: none;
+    color: white !important;
+}
+
+#contact textarea:focus {
+    outline: none !important;
+    border: 1px solid #1E87E8;
+}
+
+#contact button {
+    position: relative;
+    top: 50px;
+    color: white;
+    background-color: #1E87E8;
+    padding: 7px 20px;
+}
+
+
+#contact2 {
+    position: relative;
+    top: 120px;
+   
+}
+
+
+#contact2 i {
+    color: #1E87E8;
+}
+
+#contact2 small,
+#contact2 a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer {
+    width: 100%;
+    height: 180px;
+    background-color: rgba(100, 100, 100, 0.5);
+    position: absolute;
+    bottom: 0;
+   
+}  
+
+.social{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.border {
+    height: 40px;
+    width: 40px;
+    border: 1px solid #1E87E8 !important;
+    border-radius: 50%;
+    margin: 10px;
+    transition: all 0.8s;
+}
+
+.social i {
+    background-color: transparent;
+    position: relative;
+    top: 8px;
+    left: 12px;
+    transition: all 0.8s;
+}
+
+a:hover i {
+    cursor: pointer;
+    color: #1E87E8;
+}
+
+
+
+.hak {
+    font-size: 13px;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+
+#backToTop{
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+    border:1px solid white;
+    position: absolute;
+    right: 15px;
+    bottom:15px;
+}
+
+#backToTop i{
+    font-size: 25px;
+    padding-left: 6px;
+}
+
+
+
+
+/* responive tasarım */
+
+@media (max-width:576px) {
+
+    header li {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    #intro {
+        margin-left: -40px;
+    }
+
+    .progress {
+        width: 100%;
+    }
+
+    .box {
+        margin-left: 70px;
+        width: 350px;
+    }
+
+    #portfolyo img {
+        margin-left: 100px;
+
+    }
+
+    
+    #hourWork {
+        height: 750px;
+    }
+
+    #hourWork .row {
+        position: relative;
+        left: 180px;
+    }
+
+    #hourWork small {
+        padding-bottom: 70px;
+    }
+
+    #contact input,
+    #contact textarea {
+        width: 100%;
+    }
+
+    .mrControl{
+        margin-bottom: 420px;
+    }
+
+}
